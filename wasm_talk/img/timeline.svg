@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg">
+  <style type="text/css">
+    text {
+      font-family: Roboto Condensed;
+      text-anchor: middle;
+      fill: #ffffff;
+    }
+    .date {
+      font-weight: bold;
+    }
+    line {
+      stroke: #14dc14; 
+      stroke-width: 10;
+    }
+    circle {
+      fill: #14dc14;
+    }
+  </style>
+
+  <line x1="0%" y1="20%" x2="100%" y2="20%" />
+  <circle cx="7%" cy="20%" r="20" />
+  <text x="7%" y="10%" class="date">2010</text>
+  <text x="7%" y="35%">Emscripten</text>
+  
+  <circle cx="25%" cy="20%" r="20" />
+  <text x="25%" y="10%" class="date">2013-14</text>
+  <text>
+  	<tspan x="25%" y="35%">asm.js</tspan>
+  	<tspan x="25%" y="42%">specification</tspan>
+  </text>
+  <circle cx="45%" cy="20%" r="20" />
+  <text x="45%" y="10%" class="date">2015</text>
+  <text>
+  	<tspan x="45%" y="35%">WASM</tspan>
+  	<tspan x="45%" y="42%">announcement</tspan>
+  </text>
+
+  <circle cx="60%" cy="20%" r="20" />
+  <text x="60%" y="10%" class="date">2016</text>
+  <text>
+  	<tspan x="60%" y="35%">Cross-browser</tspan>
+  	<tspan x="60%" y="42%">work on WASM</tspan>
+  	<tspan x="60%" y="49%">Big companies</tspan>
+  	<tspan x="60%" y="56%">shipping w/ asm.js</tspan>
+  </text>
+
+  <circle cx="75%" cy="20%" r="20" />
+  <text x="75%" y="10%" class="date">Mar/2017</text>
+  <text>
+  	<tspan x="75%" y="35%">WASM MVP</tspan>
+  	<tspan x="75%" y="42%">finished</tspan>
+  </text>
+
+  <circle cx="92%" cy="20%" r="20" />
+  <text x="92%" y="10%" class="date">Feb/2018</text>
+  <text>
+  	<tspan x="92%" y="35%">WASM draft</tspan>
+  	<tspan x="92%" y="42%">on W3C</tspan>
+  </text>
+</svg>
